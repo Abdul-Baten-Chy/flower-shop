@@ -66,6 +66,31 @@ main{
     width: 80%;
     margin: 0 auto;
 }
+.icon-bg{
+    width: 80%;
+    max-width: 1000px;
+    height: 300px;
+    background-color: #2727270D;
+    display: flex;
+    gap: 15px;
+}
+
+.icon-bg div{
+    width: 80%;
+    max-width: 270px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon-bg img{
+    display: block;
+    margin: 0 auto;
+}
+.icon-bg p{
+    text-align: center;
+    margin-top: 15px;
+}
 .featured .text{
     width: 50%;
     text-align: center;
